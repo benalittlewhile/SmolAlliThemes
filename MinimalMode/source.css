@@ -186,7 +186,8 @@
 
 /* Messages */
 .cozy-VmLDNB.wrapper-30-Nkg {
-  padding-left: 64px;
+  padding-left: 48px;
+  padding-right: 36px;
   margin-top: 2px;
 }
 
@@ -195,6 +196,7 @@
   width: 32px;
   height: 32px;
   position: absolute !important;
+  transform: translateX(-7.5px);
 }
 
 .buttons-3dF5Kd {
@@ -202,10 +204,24 @@
   transform-origin: right;
 }
 
+/* Add bottom margin to unread message bar to compensate for removed message margin */
+.isUnread-3Lojb- {
+  margin-bottom: 12px;
+}
+
 /* Chat input */
 .form-3gdLxP {
+  /* reduce bottom margin of input bar */
+  > div {
+    margin-bottom: 12px;
+  }
   padding-left: 10px;
   padding-right: 10px;
+}
+
+/* reduce height of scroller spacer*/
+.scrollerSpacer-3AqkT9 {
+  height: 12px;
 }
 
 :root {
