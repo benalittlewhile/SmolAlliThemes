@@ -211,12 +211,13 @@
 
 /* Chat input */
 .form-3gdLxP {
-  /* reduce bottom margin of input bar */
-  > div {
-    margin-bottom: 12px;
-  }
   padding-left: 10px;
   padding-right: 10px;
+}
+
+/* reduce bottom margin of input bar */
+.form-3gdLxP  > div {
+    margin-bottom: 12px;
 }
 
 /* reduce height of scroller spacer*/
