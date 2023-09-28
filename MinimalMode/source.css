@@ -215,11 +215,6 @@
   padding-right: 10px;
 }
 
-/* reduce bottom margin of input bar */
-.form-3gdLxP  > div {
-    margin-bottom: 12px;
-}
-
 /* reduce height of scroller spacer*/
 .scrollerSpacer-3AqkT9 {
   height: 12px;
